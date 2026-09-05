@@ -8,6 +8,8 @@ function Skills() {
       { name: "HTML", icon: "devicon-html5-plain colored" },
       { name: "CSS", icon: "devicon-css3-plain colored" },
       { name: "JavaScript", icon: "devicon-javascript-plain colored" },
+      { name: "Bootstrap", icon: "devicon-bootstrap-plain colored" },
+      { name: "Tailwind CSS", icon: "devicon-tailwindcss-plain colored" },
       { name: "React", icon: "devicon-react-original colored" },
     ],
     backend: [
@@ -41,9 +43,8 @@ function Skills() {
           <button
             key={tab.id}
             onClick={() => setActive(tab.id)}
-            className={`cursor-pointer relative pb-2 text-xl sm:text-2xl md:text-3xl font-medium transition ${
-              active === tab.id ? "text-white" : "text-gray-400 hover:text-white"
-            }`}
+            className={`cursor-pointer relative pb-2 text-xl sm:text-2xl md:text-3xl font-medium transition ${active === tab.id ? "text-white" : "text-gray-400 hover:text-white"
+              }`}
           >
             {tab.label}
             {active === tab.id && (

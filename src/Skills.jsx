@@ -57,7 +57,7 @@ function Skills() {
       {/* Skill Icons - always centered, consistent regardless of item count */}
       <div className="flex flex-wrap justify-center gap-x-10 sm:gap-x-14 md:gap-x-20 xl:gap-x-24 gap-y-6 sm:gap-y-8 md:gap-y-10 max-w-4xl mx-auto w-full">
         {categories[active].map((skill) => (
-          <div key={skill.name} className="flex items-center gap-2 sm:gap-3">
+          <div key={skill.name} className="bg-indigo-500/8 border border-purple-400/20 rounded-xl px-6 py-4 flex items-center gap-3 hover:border-purple-400/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-purple-500/20">
             {skill.isImage ? (
               <img
                 src={skill.icon}

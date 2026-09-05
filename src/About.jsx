@@ -86,7 +86,7 @@ function About() {
 
             <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
               <h3 className="text-white text-xl sm:text-2xl font-medium">
-                7+
+                9+
               </h3>
 
               <p className="text-gray-300 text-xs sm:text-sm mt-1">

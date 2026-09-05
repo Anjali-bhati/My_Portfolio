@@ -11,7 +11,6 @@ function Projects() {
       demo: null,
       github: "https://github.com/Anjali-bhati/Housing-Society-Facility-management",
       image: project1,
-
     },
     {
       name: "E-Commerce Website Ayurveda",

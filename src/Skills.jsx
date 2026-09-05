@@ -18,6 +18,7 @@ function Skills() {
     tools: [
       { name: "Git", icon: "devicon-git-plain colored" },
       { name: "VS Code", icon: "devicon-vscode-plain colored" },
+      { name: "SAP GUI", icon: "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg", isImage: true },
     ],
   };
 

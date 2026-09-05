@@ -26,7 +26,7 @@ function Projects() {
       description: "A responsive personal portfolio website showcasing my skills, projects, education, and resume with a clean and interactive interface.",
       tech: ["React", "Tailwind CSS"],
       demo: "your-portfolio-live-url",
-      github: "your-portfolio-github-url",
+      github: "https://github.com/Anjali-bhati/My_Portfolio",
       image: portfolio,
     },
   ];

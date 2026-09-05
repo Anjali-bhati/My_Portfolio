@@ -4,8 +4,8 @@ function About() {
     <div className="w-full max-w-7xl mx-auto pt-10 sm:pt-16 md:pt-15 lg:pt-25">
 
       <h1 className="text-5xl font-bold mb-4 text-center">About Me</h1>
-      <div className="w-[60%] sm:w-[43%] md:w-[28%] lg:w-[16%] h-1 mx-auto mb-10 bg-gradient-to-r from-purple-500 to-cyan-400 rounded-full"></div>
-      <div className="flex flex-col md:flex-row gap-8 md:gap-10 lg:gap-12 items-start w-full px-4 md:px-8 lg:px-2 pt-10">
+      <div className="w-[60%] sm:w-[43%] md:w-[28%] lg:w-[20%] xl:w-[16%] h-1 mx-auto mb-10 bg-gradient-to-r from-purple-500 to-cyan-400 rounded-full"></div>
+      <div className="flex flex-col md:flex-row gap-8 md:gap-10 lg:gap-12 items-start w-full px-4 md:px-8 lg:px-5 xl:px-2 pt-10">
 
         <div className="w-full md:w-[56%] lg:w-[55%] text-center md:text-left">
 
@@ -17,10 +17,10 @@ function About() {
           </p>
 
           <p className="about text-lg sm:text-xl leading-7 sm:leading-8 pt-6 sm:pt-7">
-            I have hands-on experience with Java, HTML, CSS, JavaScript,
+            I have hands-on experience with Java, HTML, CSS, JavaScript, Bootstrap
             React, Tailwind CSS, SQL, and SAP ABAP. I have also worked on
             projects such as a Job Portal, Housing Society Management
-            System, and E-Commerce Website Ayurveda.
+            System, E-Commerce Website Ayurveda, and My Portfolio.
           </p>
 
           <p className="about text-lg sm:text-xl leading-7 sm:leading-8 pt-6 sm:pt-7">

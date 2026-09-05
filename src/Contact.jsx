@@ -38,7 +38,7 @@ function Contact() {
     <div className="w-full max-w-7xl mx-auto pt-10 sm:pt-16 md:pt-15 lg:pt-25 lg:px-20">
 
       <div className="px-4 md:px-8 lg:px-2 text-left">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
           Contact Me
         </h1>
         <div className="w-40 sm:w-52 md:w-60 h-1 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full mb-8"></div>

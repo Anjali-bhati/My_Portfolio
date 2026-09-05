@@ -3,26 +3,15 @@ import resume from './assets/Anjali_Bhati_Resume.pdf';
 
 function DownloadIcon() {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth={1.5}
-      stroke="currentColor"
-      className="w-5 h-5"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
-      />
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"/>
     </svg>
   );
 }
 
 function Home() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-6 sm:px-10 md:px-16 lg:px-50 pt-10 sm:pt-16 md:pt-24 lg:pt-40 w-full">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-6 sm:px-10 md:px-10 lg:px-20 xl:px-50 pt-10 sm:pt-16 md:pt-24 lg:pt-40 w-full">
 
       {/* Text */}
       <div className="order-2 md:order-1 flex flex-col items-start justify-center">

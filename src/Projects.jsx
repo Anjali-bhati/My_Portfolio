@@ -31,10 +31,10 @@ function Projects() {
   ];
 
   return (
-    <div className="w-full flex flex-col items-center mt-15 sm:mt-20 md:mt-23 lg:mt-30">
+    <div className="w-full flex flex-col items-center mt-15 sm:mt-20 md:mt-23 lg:mt-30 px-2 sm:px-2 md:px-5">
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Projects</h2>
 
-      <div className="w-[30%] sm:w-[30%] md:w-[20%] lg:w-[10%] h-1 mx-auto mb-8 sm:mb-10 bg-gradient-to-r from-purple-500 to-cyan-400 rounded-full"></div>
+      <div className="w-[30%] sm:w-[30%] md:w-[20%] lg:w-[16%] xl:w-[10%] h-1 mx-auto mb-8 sm:mb-10 bg-gradient-to-r from-purple-500 to-cyan-400 rounded-full"></div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-7xl w-full mt-10">
         {projects.map((project) => (

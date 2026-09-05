@@ -35,7 +35,7 @@ function Skills() {
 
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Skills</h2>
 
-      <div className="w-16 sm:w-20 md:w-[12%] lg:w-[6%] h-1 mx-auto mb-8 sm:mb-10 bg-gradient-to-r from-purple-500 to-cyan-400 rounded-full"></div>
+      <div className="w-16 sm:w-20 md:w-[12%] lg:w-[10%] xl:w-[6%] h-1 mx-auto mb-8 sm:mb-10 bg-gradient-to-r from-purple-500 to-cyan-400 rounded-full"></div>
 
       {/* Tabs */}
       <div className="flex justify-center gap-8 sm:gap-16 md:gap-40 mb-10 sm:mb-7 lg:pb-20 flex-wrap lg:pt-3">

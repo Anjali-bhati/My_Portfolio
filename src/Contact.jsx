@@ -54,7 +54,7 @@ function Contact() {
           </p>
 
           <div className="flex flex-col gap-7 max-w-full sm:max-w-sm md:max-w-md">
-            <div className="bg-white/5 border border-white/20 rounded-xl px-5 py-4 flex items-center gap-4">
+            <div className="bg-indigo-500/8 border border-white/20 rounded-xl px-5 py-4 flex items-center gap-4">
               <div className="w-10 h-10 rounded-lg bg-indigo-500/15 flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 text-purple-400">
                   <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
@@ -66,7 +66,7 @@ function Contact() {
                 <p className="text-white text-sm font-semibold">anjalibhati132@gmail.com</p>
               </div>
             </div>
-            <div className="bg-white/5 border border-white/20 rounded-xl px-5 py-4 flex items-center gap-4">
+            <div className="bg-indigo-500/8 border border-white/20 rounded-xl px-5 py-4 flex items-center gap-4">
               <div className="w-10 h-10 rounded-lg bg-indigo-500/15 flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 text-purple-400">
                   <path fillRule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
@@ -88,17 +88,17 @@ function Contact() {
 
             <div className="p-3">
               <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required
-                className="w-full bg-white/5 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-gray-400 outline-none focus:border-purple-400"/>
+                className="w-full bg-indigo-500/8 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-gray-400 outline-none focus:border-purple-400"/>
             </div>
 
             <div className="p-3">
               <input type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} required
-                className="w-full bg-white/5 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-gray-400 outline-none focus:border-purple-400"/>
+                className="w-full bg-indigo-500/8 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-gray-400 outline-none focus:border-purple-400"/>
             </div>
 
             <div className="p-3 flex-1">
               <textarea name="message" placeholder="Your Message" rows={5} value={formData.message} onChange={handleChange}
-                required className="w-full h-full min-h-[140px] bg-white/5 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-gray-400 outline-none focus:border-purple-400 resize-none" />
+                required className="w-full h-full min-h-[140px] bg-indigo-500/8 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-gray-400 outline-none focus:border-purple-400 resize-none" />
             </div>
 
              {status === "success" && (
@@ -123,11 +123,11 @@ function Contact() {
           <div className="flex gap-6">
 
             <a href="https://www.linkedin.com/in/anjali-bhati2006/" target="_blank" rel="noopener noreferrer" 
-              className="w-14 h-14 flex items-center justify-center border border-white/50 rounded-lg hover:border-cyan-400 transition">
+              className="w-14 h-14 flex items-center justify-center bg-indigo-500/8 border border-white/50 rounded-lg hover:border-cyan-400 transition">
               <i className="devicon-linkedin-plain colored text-4xl"></i>
             </a>
             <a href="https://github.com/Anjali-bhati" target="_blank" rel="noopener noreferrer"
-              className="w-14 h-14 flex items-center justify-center border border-white/50 rounded-lg hover:border-purple-400 transition">
+              className="w-14 h-14 flex items-center justify-center bg-indigo-500/8 border border-white/50 rounded-lg hover:border-purple-400 transition">
               <i className="devicon-github-original text-4xl text-white"></i>
             </a>
           </div>

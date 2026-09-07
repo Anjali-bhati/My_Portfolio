@@ -40,7 +40,7 @@ function About() {
 
         <div className="w-full md:w-[44%] lg:w-[45%] flex flex-col gap-4">
 
-          <div className="bg-white/5 border border-white/10 rounded-xl p-4 md:p-5 lg:p-8 flex items-center gap-1">
+          <div className="bg-indigo-500/8 border border-white/10 rounded-xl p-4 md:p-5 lg:p-8 flex items-center gap-1">
 
             
             <img src={logo} alt="" className="w-10 h-10" />
@@ -62,7 +62,7 @@ function About() {
 
           <div className="grid grid-cols-3 gap-3">
 
-            <div className="bg-white/5 border border-white/10 rounded-xl p-4 md:p-4 lg:p-7 text-center">
+            <div className="bg-indigo-500/8 border border-white/10 rounded-xl p-4 md:p-4 lg:p-7 text-center">
               <h3 className="text-white text-xl sm:text-2xl font-medium">
                 3+
               </h3>
@@ -73,7 +73,7 @@ function About() {
             </div>
 
 
-            <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
+            <div className="bg-indigo-500/8 border border-white/10 rounded-xl p-4 text-center">
               <h3 className="text-white text-xl sm:text-2xl font-medium">
                 2+
               </h3>
@@ -84,7 +84,7 @@ function About() {
             </div>
 
 
-            <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
+            <div className="bg-indigo-500/8 border border-white/10 rounded-xl p-4 text-center">
               <h3 className="text-white text-xl sm:text-2xl font-medium">
                 9+
               </h3>

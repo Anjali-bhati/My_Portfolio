@@ -38,7 +38,7 @@ function Projects() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-7xl w-full mt-10">
         {projects.map((project) => (
-          <div key={project.name} className="group bg-white/10 border border-white/10 rounded-2xl p-6 min-h-[420px] flex flex-col transition-all duration-300 hover:-translate-y-2 hover:border-purple-400/50 hover:shadow-xl hover:shadow-purple-500/20">
+          <div key={project.name} className="group bg-indigo-500/8 border border-white/10 rounded-2xl p-6 min-h-[420px] flex flex-col transition-all duration-300 hover:-translate-y-2 hover:border-purple-400/50 hover:shadow-xl hover:shadow-purple-500/20">
             <div className="w-full h-40 sm:h-44 md:h-48 rounded-xl overflow-hidden mb-4 bg-gradient-to-br from-indigo-500/25 to-purple-400/25 flex items-center justify-center">
               {project.image ? (
                 <img
